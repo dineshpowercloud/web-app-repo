@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo 'Building application...' && mkdir -p dist && cp -r index.html dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
